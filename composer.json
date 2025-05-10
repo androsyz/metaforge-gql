@@ -1,0 +1,30 @@
+{
+    "name": "androsyz/metaforge-gql",
+    "autoload": {
+        "psr-4": {
+            "Androsyz\\MetaforgeGql\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "andro",
+            "email": "androsyahreza@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "name": "androsyz/php-sdk",
+            "type": "vcs",
+            "url": "git@github.com:androsyz/php-sdk.git"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "mark-php/mark": "^2.0",
+        "workerman/mysql": "^1.0",
+        "mustangostang/spyc": "^0.6.3",
+        "androsyz/php-sdk": "dev-main",
+        "webonyx/graphql-php": "^14.11",
+        "skillshare/apollo-federation-php": "^1.9"
+    }
+}

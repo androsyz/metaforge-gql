@@ -1,0 +1,9 @@
+---
+table: "comments"
+
+fields:
+  id: "int"
+  post_id: "int"
+  messages: "string"
+  created_at: "string"
+  updated_at: "string"
